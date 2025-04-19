@@ -1,4 +1,3 @@
-
 import { Button } from './ui/button';
 
 const HeroSection = () => {
@@ -10,9 +9,7 @@ const HeroSection = () => {
       
       <div className="container mx-auto px-4 md:px-8 flex flex-col md:flex-row">
         <div className="md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left mb-12 md:mb-0">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-2">
-            Hamna<br />K
-          </h1>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-2">Hamna K</h1>
           <h2 className="text-xl text-white/70 mb-8">Data Analyst</h2>
           
           <Button asChild className="bg-transparent border border-white/30 hover:bg-white/10 text-white rounded-md">

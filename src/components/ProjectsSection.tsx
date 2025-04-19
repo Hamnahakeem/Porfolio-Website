@@ -7,7 +7,7 @@ const projects = [
     name: "Electric Vehicles Sales Analysis",
     description: "Comprehensive analysis of global EV sales trends, market penetration, and growth forecasting using Python and Tableau.",
     icon: FileBarChart,
-    image: "https://images.unsplash.com/photo-1593941707882-a5bba53b0eb6?ixlib=rb-4.0.3"
+    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1" // Updated image URL
   },
   {
     name: "YouTube Influencers Analysis",
