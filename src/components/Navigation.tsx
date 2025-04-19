@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import { Button } from './ui/button';
 
 const Navigation = () => {
@@ -8,18 +8,17 @@ const Navigation = () => {
 
   const navItems = [
     { name: 'Home', href: '#home' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'About', href: '#about' },
+    { name: 'Skills', href: '#expertise' },
+    { name: 'Clients', href: '#clients' },
     { name: 'Contact', href: '#contact' },
   ];
 
   return (
-    <nav className="fixed w-full bg-white/80 backdrop-blur-sm z-50 shadow-sm">
+    <nav className="fixed w-full z-50 bg-transparent p-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center">
-            <span className="text-xl font-bold text-primary">DA Portfolio</span>
+            <Globe className="h-6 w-6 text-white" />
           </div>
           
           {/* Desktop Navigation */}
@@ -28,11 +27,14 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-secondary hover:text-accent transition-colors"
+                className="text-white/80 hover:text-white transition-colors text-sm"
               >
                 {item.name}
               </a>
             ))}
+            <Button asChild className="bg-transparent border border-white/30 hover:bg-white/10 text-white rounded-md">
+              <a href="#contact">Book a Chat</a>
+            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -41,6 +43,7 @@ const Navigation = () => {
               variant="ghost"
               size="icon"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="text-white"
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </Button>
@@ -51,17 +54,22 @@ const Navigation = () => {
       {/* Mobile Navigation */}
       {isMenuOpen && (
         <div className="md:hidden">
-          <div className="pt-2 pb-3 space-y-1 bg-white">
+          <div className="bg-purple/90 backdrop-blur-md pt-2 pb-3 space-y-1">
             {navItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="block px-3 py-2 text-base font-medium text-secondary hover:text-accent"
+                className="block px-3 py-2 text-base font-medium text-white/80 hover:text-white"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
               </a>
             ))}
+            <div className="px-3 py-2">
+              <Button asChild className="w-full bg-transparent border border-white/30 hover:bg-white/10 text-white rounded-md">
+                <a href="#contact">Book a Chat</a>
+              </Button>
+            </div>
           </div>
         </div>
       )}

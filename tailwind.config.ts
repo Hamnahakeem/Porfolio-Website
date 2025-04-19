@@ -49,6 +49,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        purple: {
+          DEFAULT: "#2D0353",
+          light: "#5F2EBE",
+          dark: "#1E0235",
+        },
+        gradient: {
+          start: "#6F3ACD",
+          end: "#2D0353",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -68,11 +77,20 @@ export default {
           "0%": { opacity: "0", transform: "translateY(10px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in": "fadeIn 0.5s ease-out forwards",
+        "float": "float 6s ease-in-out infinite",
+      },
+      backgroundImage: {
+        "purple-gradient": "linear-gradient(to right, #6F3ACD, #2D0353)",
+        "purple-blur": "url('/lovable-uploads/3b8f9a93-fd09-42fe-9ed9-6731519bf338.png')"
       },
     },
   },
