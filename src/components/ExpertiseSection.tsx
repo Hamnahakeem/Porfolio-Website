@@ -3,7 +3,7 @@ import { Card } from "./ui/card";
 
 const ExpertiseSection = () => {
   const skills = [
-   "Power BI","Tableau",
+   "Power BI",
     "Programming",
     "Data modeling",
     "Attention to detail",
@@ -11,6 +11,7 @@ const ExpertiseSection = () => {
   ];
   
   const services = [
+    "Tableau",
     "Data visualization",
     "Dashboard creation",
     "Analysis and exploration",
