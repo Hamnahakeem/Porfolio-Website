@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 md:px-8 flex flex-col md:flex-row">
         <div className="md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left mb-12 md:mb-0">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-2">
-            Wendy<br />Salinas
+            Hamna<br />K
           </h1>
           <h2 className="text-xl text-white/70 mb-8">Data Analyst</h2>
           
@@ -32,7 +32,7 @@ const HeroSection = () => {
                 <span className="text-purple-light">data-driven.</span>
               </h3>
               <p className="text-white/80">
-                That's where I come in. As a data analyst with over 10 years of experience in the field, I can help take your company to the next level. We'll start with a solid foundation, building your database and dashboards. Then we'll let the numbers show us the best way to optimize your business and make it future-ready.
+                That's where I come in. As a data analyst with expertise in various domains, I specialize in transforming raw data into actionable insights. From electric vehicle market trends to social media analytics, I help businesses make informed decisions through comprehensive data analysis.
               </p>
               <p className="text-white/80 mt-4 font-medium">
                 Work with me. Book an exploratory consult today!
