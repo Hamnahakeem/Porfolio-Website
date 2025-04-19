@@ -17,7 +17,7 @@ const ContactSection = () => {
             </h2>
             
             <div className="mt-8">
-              <p className="text-white/80 mb-1">hello@wendysalinas.com</p>
+              <p className="text-white/80 mb-1">hamnahakeemk@gmail.com</p>
               <p className="text-white/80 mb-6">123-456-7890</p>
               <p className="text-white/80">123 Anywhere St.,<br />Any City, ST 12345</p>
             </div>
@@ -45,3 +45,4 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
+
