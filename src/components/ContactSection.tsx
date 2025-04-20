@@ -1,7 +1,12 @@
+
 import { Button } from './ui/button';
-import { ChevronDown, Linkedin, Mail } from 'lucide-react';
+import { ChevronDown, Linkedin, Mail, WhatsApp } from 'lucide-react';
 
 const ContactSection = () => {
+  // WhatsApp phone number with country code
+  const whatsappNumber = "9061579505";
+  const whatsappUrl = `https://wa.me/${whatsappNumber}`;
+  
   return (
     <section id="contact" className="py-24 relative">
       {/* Animated blurred background elements */}
@@ -42,6 +47,14 @@ const ContactSection = () => {
                   className="text-white/80 hover:text-white transition-colors"
                 >
                   <Mail className="w-6 h-6" />
+                </a>
+                <a 
+                  href={whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/80 hover:text-white transition-colors"
+                >
+                  <WhatsApp className="w-6 h-6" />
                 </a>
               </div>
             </div>

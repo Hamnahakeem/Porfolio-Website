@@ -1,3 +1,4 @@
+
 import { Button } from './ui/button';
 
 const HeroSection = () => {
@@ -13,7 +14,7 @@ const HeroSection = () => {
           <h2 className="text-xl text-white/70 mb-8">Data Analyst|Mentor</h2>
           
           <Button asChild className="bg-transparent border border-white/30 hover:bg-white/10 text-white rounded-md">
-            <a href="#contact">Book a Chat</a>
+            <a href="mailto:hamnahakeemk@gmail.com">Book a Chat</a>
           </Button>
         </div>
         
@@ -32,7 +33,7 @@ const HeroSection = () => {
                 That's where I come in. As a data analyst with expertise in various domains, I specialize in transforming raw data into actionable insights. From electric vehicle market trends to social media analytics, I help businesses make informed decisions through comprehensive data analysis.
               </p>
               <p className="text-white/80 mt-4 font-medium">
-                Work with me. Book an exploratory consult today!
+                Work with me. <a href="mailto:hamnahakeemk@gmail.com" className="text-purple-light hover:underline">Book an exploratory consult today!</a>
               </p>
             </div>
           </div>
