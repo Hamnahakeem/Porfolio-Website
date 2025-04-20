@@ -1,4 +1,3 @@
-
 import { Button } from './ui/button';
 import { ChevronDown, Linkedin, Mail } from 'lucide-react';
 
@@ -31,8 +30,8 @@ const ContactSection = () => {
               
               <div className="flex gap-4 mt-6">
                 <a 
-                  href="https://www.linkedin.com/in/hamna-k/"
-                  target="www.linkedin.com/in/hamna-k-hakeem"
+                  href="https://www.linkedin.com/in/hamna-k-hakeem"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/80 hover:text-white transition-colors"
                 >
