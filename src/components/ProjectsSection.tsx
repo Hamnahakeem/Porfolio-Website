@@ -8,14 +8,14 @@ const projects = [
     description: "Comprehensive analysis of global EV sales trends, market penetration, and growth forecasting using Python and Tableau.",
     icon: FileBarChart,
     image: "https://www.bls.gov/opub/btn/volume-12/images/electric-vehicles-main-image.jpg",
-    github: "https://github.com/yourusername/ev-sales-analysis"
+    github: "https://github.com/Hamnahakeem/Electric-Vehicles-Sales-Analysis"
   },
   {
     name: "YouTube Influencers Analysis",
     description: "Deep dive into content creator metrics, engagement rates, and audience demographics using Python and Power BI.",
     icon: Youtube,
-    image: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?ixlib=rb-4.0.3",
-    github: "https://github.com/yourusername/youtube-influencers-analysis"
+    image: "https://imatrix.com/clients/1791/images/MITM_blog/.resized/.resized_500x244_youtube_analytics_to_track_video_campaign.png",
+    github: "https://github.com/Hamnahakeem/Youtube-influencers-Analysis"
   },
   {
     name: "Social Media Impressions Analysis",
