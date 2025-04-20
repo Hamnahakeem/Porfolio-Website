@@ -1,6 +1,6 @@
 
 import { Button } from './ui/button';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Linkedin, Mail } from 'lucide-react';
 
 const ContactSection = () => {
   return (
@@ -17,9 +17,34 @@ const ContactSection = () => {
             </h2>
             
             <div className="mt-8">
-              <p className="text-white/80 mb-1">hamnahakeemk@gmail.com</p>
+              <div className="flex items-center gap-3 mb-1">
+                <a 
+                  href="mailto:hamnahakeemk@gmail.com"
+                  className="text-white/80 hover:text-white flex items-center gap-2"
+                >
+                  <Mail className="w-5 h-5" />
+                  hamnahakeemk@gmail.com
+                </a>
+              </div>
               <p className="text-white/80 mb-6">9061579505</p>
               <p className="text-white/80">Kondotty<br />malappuram</p>
+              
+              <div className="flex gap-4 mt-6">
+                <a 
+                  href="https://www.linkedin.com/in/hamna-k/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/80 hover:text-white transition-colors"
+                >
+                  <Linkedin className="w-6 h-6" />
+                </a>
+                <a 
+                  href="mailto:hamnahakeemk@gmail.com"
+                  className="text-white/80 hover:text-white transition-colors"
+                >
+                  <Mail className="w-6 h-6" />
+                </a>
+              </div>
             </div>
           </div>
           
@@ -45,4 +70,3 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
-
