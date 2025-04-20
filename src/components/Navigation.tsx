@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
 import { Button } from './ui/button';
@@ -33,7 +32,7 @@ const Navigation = () => {
               </a>
             ))}
             <Button asChild className="bg-transparent border border-white/30 hover:bg-white/10 text-white rounded-md">
-              <a href="#contact">Book a Chat</a>
+              <a href="mailto:hamnahakeemk@gmail.com">Book a Chat</a>
             </Button>
           </div>
 
@@ -67,7 +66,7 @@ const Navigation = () => {
             ))}
             <div className="px-3 py-2">
               <Button asChild className="w-full bg-transparent border border-white/30 hover:bg-white/10 text-white rounded-md">
-                <a href="#contact">Book a Chat</a>
+                <a href="mailto:hamnahakeemk@gmail.com">Book a Chat</a>
               </Button>
             </div>
           </div>
