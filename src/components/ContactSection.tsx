@@ -32,7 +32,7 @@ const ContactSection = () => {
               <div className="flex gap-4 mt-6">
                 <a 
                   href="https://www.linkedin.com/in/hamna-k/"
-                  target="_blank"
+                  target="www.linkedin.com/in/hamna-k-hakeem"
                   rel="noopener noreferrer"
                   className="text-white/80 hover:text-white transition-colors"
                 >
